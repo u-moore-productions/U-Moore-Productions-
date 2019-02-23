@@ -3,7 +3,7 @@ header {
 	width: 100%; 
 	padding-left: auto; 
 	position: relative; 
-	background: url("Seattle-Views.png") no-repeat top center;
+	background: url("./Seattle-Views.png") no-repeat top center;
 	background-size: cover; 
 
 }
@@ -29,7 +29,7 @@ audio {
 }
 #Music {
 	height: 800px; 
-	background: url("u_moore cover.png") no-repeat center center; 
+	background: url("./u_moore cover.png") no-repeat center center; 
 	background-size: cover; 
 }
 #Tour{
