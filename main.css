@@ -1,0 +1,45 @@
+header {
+	height: 150px; 
+	width: 100%; 
+	padding-left: auto; 
+	position: relative; 
+	background: url("Seattle-Views.png") no-repeat top center;
+	background-size: cover; 
+
+}
+#title  {
+	height: 50px; 
+	width: 400px; 
+	position: absolute; 
+	top: 20px; 
+	left:35%; 
+	
+}
+.nav {
+	left: 40%; 
+	top: 70px; 
+	bottom: 0;
+	position: absolute; 
+}
+audio {
+	height: 50px; 
+	display: block; 
+	margin: 0 auto; 
+	padding-top: 25px; 
+}
+#Music {
+	height: 800px; 
+	background: url("u_moore cover.png") no-repeat center center; 
+	background-size: cover; 
+}
+#Tour{
+	height: 200px; 
+	text-align: center; 
+	background-color: red; 
+
+}
+#Connect {
+	height: 200px; 
+	text-align: center; 
+	background-color: blue; 
+}
