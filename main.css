@@ -3,9 +3,17 @@ header {
 	width: 100%; 
 	padding-left: auto; 
 	position: relative; 
-	background: url("./Seattle-Views.png") no-repeat top center;
+	background: linear-gradient(rgba(205,133,63, .5), transparent 90%),
+		linear-gradient(0deg, rgba(255, 255, 255, .5), transparent 90%),
+		url("./Seattle-Music_umoore.jpg") no-repeat top center;
 	background-size: cover; 
+	opacity: .7; 
+	border-bottom: solid white 3px; 
 
+}
+header h1 {
+	color: white; 
+	text-shadow: 3px 3px 6px black; 
 }
 #title  {
 	height: 50px; 
@@ -29,17 +37,33 @@ audio {
 }
 #Music {
 	height: 800px; 
-	background: url("./u_moore cover.png") no-repeat center center; 
+	background: linear-gradient(0deg, rgba(255, 255, 255, .5), transparent 90%),
+		linear-gradient(0deg, rgba(220, 20, 60, .5), transparent 90%),
+		url("./u_moore cover.png") no-repeat center center; 
 	background-size: cover; 
+	border-bottom: 3px solid white; 
+	opacity: .9; 
 }
 #Tour{
 	height: 200px; 
 	text-align: center; 
-	background-color: red; 
-
+	background: linear-gradient(rgba(220, 20, 60, .5), transparent 90%),
+		linear-gradient(0deg, rgba(255, 255, 255, .5), transparent 90%),
+		url(./Seattle-Views.png) no-repeat top center; 
+	background-size: cover; 
+	background-origin: border-box; 
+	border-bottom: 3px solid white; 
+}
+#Tour h2 {
+	color: white; 
+	text-shadow: 3px 3px 6px black; 
 }
 #Connect {
 	height: 200px; 
 	text-align: center; 
-	background-color: blue; 
+	background: linear-gradient(rgba(102, 51, 153, .5), transparent 90%); 
+}
+#Connect h2 {
+	color: white; 
+	text-shadow: 3px 3px 6px black; 
 }
