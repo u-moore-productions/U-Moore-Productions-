@@ -49,7 +49,7 @@ audio {
 	text-align: center; 
 	background: linear-gradient(rgba(220, 20, 60, .5), transparent 90%),
 		linear-gradient(0deg, rgba(255, 255, 255, .5), transparent 90%),
-		url(./Seattle-Views.jpg) no-repeat top center; 
+		url("./Seattle-Views.jpg") no-repeat top center; 
 	background-size: cover; 
 	background-origin: border-box; 
 	border-bottom: 3px solid white; 
