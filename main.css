@@ -5,13 +5,12 @@ header {
 	position: relative; 
 	background: rgb(0,0,0);	
 	background-size: cover; 
-	opacity: .7; 
 	border-bottom: solid white 3px; 
 
 }
 header h1 {
 	color: white; 
-	text-shadow: 3px 3px 6px black; 
+	text-shadow: 3px 3px 6px rgb(120,81,169); 
 }
 #title  {
 	height: 50px; 
@@ -28,10 +27,11 @@ header h1 {
 	position: absolute; 
 }
 .nav-link {
-	color: rgb(120,81,169); 
+	color: white; 
 }
 .nav-link:hover {
-	color: white;
+	color: rgb(120,81,169);
+	text-shadow: 3px 6px 9px rgb(207,181,59);
 }
 audio {
 	height: 50px; 
@@ -47,29 +47,41 @@ audio {
 	background-size: cover; 
 	border-bottom: 3px solid white; 
 	opacity: .9; 
+	padding-top: 300px; 
 }
 #Tour{
 	height: 200px; 
 	text-align: center; 
-	background: linear-gradient(rgba(220, 20, 60, .5), transparent 90%),
-		linear-gradient(0deg, rgba(255, 255, 255, .5), transparent 90%),
+	background: linear-gradient(rgba(220, 20, 60, .6), transparent 90%),
+		linear-gradient(0deg, rgba(255, 255, 255, .9), transparent 90%),
 		url("./Seattle-Views.jpg") no-repeat top center; 
 	background-size: cover; 
 	background-origin: border-box; 
 	border-bottom: 3px solid white; 
 }
-#Tour h2 {
+#Tour h2{
 	color: white; 
 	text-shadow: 3px 3px 6px black; 
 }
+#Tour h6 {
+	color: white; 
+}
+
 #Connect {
 	height: 200px; 
 	text-align: center; 
 	background: rgb(0,0,0);
-	opacity: .7; 
 	color: white; 
 }
 #Connect h2 {
 	color: white; 
-	text-shadow: 3px 3px 6px black; 
+	text-shadow: 3px 3px 3px black; 
 }
+#Connect a {
+	color: white; 
+	margin-left: 3px; 
+} 
+#Connect a:hover {
+	color: rgb(120,81,169); 
+	text-decoration: none; 
+} 
